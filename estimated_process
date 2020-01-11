@@ -1,0 +1,14 @@
+1. load the data
+2. shape of data
+3. drop redundant columns or columns with many NaN entries or nonsense columns(like name/id)
+4. identify which columns r quantitative and which categorical
+5. replace NaN values by median in case of quantitative and mode in case of categorical features
+6. plot hist of dependent variable vs the hypothesized features
+7. select features that affect the dependent variable the most by using corr
+8. label-encode/get-dummies on categorical columns
+9. see if the features form normal distributions, if not, apply some transformation like sq. root or log to normalize them
+10. standard scale the features
+11. repeat 8 on dependent variable too
+12. fit and train model
+13. predict
+14. apply some eval metric (rmse)
